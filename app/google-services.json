@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "625699253458",
+    "firebase_url": "https://myfirebaseauth-1bb1b.firebaseio.com",
+    "project_id": "myfirebaseauth-1bb1b",
+    "storage_bucket": "myfirebaseauth-1bb1b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:625699253458:android:c557f2c562b8981d",
+        "android_client_info": {
+          "package_name": "com.sai.interviewtaskapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "625699253458-sh07a2u7ue8t02msol5lcirfofh4hg4e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sai.interviewtaskapp",
+            "certificate_hash": "045d953153ecede68446b327bffaee2e4f93d818"
+          }
+        },
+        {
+          "client_id": "625699253458-gdlaka17e5vgf0fdi9u4205c201v5t27.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcSMmmm2Ntk9OAV7R-27FQEsOkimRrBPc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "625699253458-gdlaka17e5vgf0fdi9u4205c201v5t27.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

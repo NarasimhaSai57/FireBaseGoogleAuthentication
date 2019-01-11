@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_firebase_logo" />
+
+    <ProgressBar
+        android:id="@+id/progress_circular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:visibility="invisible"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image"
+        android:gravity="center"
+        android:text="FireBase Login"
+        android:textSize="16sp" />
+
+    <Button
+
+        android:id="@+id/login"
+        android:layout_marginBottom="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF101313"
+        android:background="@drawable/round_bg"
+        android:layout_marginRight="26dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="26dp"
+        android:drawableStart="@drawable/ic_google_logo"
+        android:text="Login With Google"
+        />
+
+
+    <Button
+
+        android:id="@+id/logout"
+        android:layout_marginBottom="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF101313"
+        android:background="@drawable/round_bg"
+        android:layout_marginRight="26dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="26dp"
+        android:drawableStart="@drawable/ic_google_logo"
+        android:text="LogOut"
+        android:visibility="invisible"
+        />
+    <Button
+
+        android:id="@+id/proceed"
+        android:layout_marginBottom="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF101313"
+        android:background="@drawable/round_bg"
+        android:layout_marginRight="26dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="26dp"
+        android:text="Proceed"
+        android:visibility="invisible"
+        />
+
+
+
+</RelativeLayout>
